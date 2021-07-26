@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #1e293b;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 56px;
+  font-weight: bold;
+}
+.message {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 28px;
+  font-weight: 700;
+}
+.button {
+  background-color: #ffffff;
+  color: #1e293b;
+  border: 0px;
+  border-radius: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 100px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  cursor: pointer;
+}
