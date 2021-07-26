@@ -1,0 +1,41 @@
+/* Write your code here. */
+.navbar-container {
+  background-color: #9796f0;
+  background-size: cover;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #ffffff;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+}
+.title {
+  font-size: 22px;
+}
+.score-details {
+  font-size: 20px;
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 26px;
+  }
+  .score-details {
+    font-size: 22px;
+  }
+}
