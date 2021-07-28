@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.github-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-size: 42px;
+  font-family: 'Lobster';
+  font-weight: bold;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 48px;
+  }
+}
+.language-filters-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .language-filters-container {
+    flex-wrap: nowrap;
+  }
+}
+.failure-image {
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.failure-info {
+  color: #0f172a;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .failure-info {
+    font-size: 36px;
+  }
+}
+.success-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
