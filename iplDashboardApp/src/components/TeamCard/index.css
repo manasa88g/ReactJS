@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.team-link {
+  text-decoration: none;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  width: 40%;
+  height: 120px;
+  margin: 10px;
+  background-color: #ffffff33;
+}
+.home-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+.team-image {
+  width: 40px;
+  height: 40px;
+  margin: 6px;
+}
+.team-name {
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .team-image {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+  }
+  .team-name {
+    font-size: 22px;
+  }
+  .team-link {
+    width: 40%;
+    height: 200px;
+    margin: 10px;
+  }
+}

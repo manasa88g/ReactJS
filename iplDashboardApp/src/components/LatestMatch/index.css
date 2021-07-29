@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.latest-match-container {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  width: 98%;
+}
+.match-info-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+}
+.latest-match-logo {
+  width: 90%;
+}
+.match-info {
+  margin-right: 10px;
+  width: 70%;
+}
+.team-name {
+  font-size: 22px;
+}
+
+.info {
+  font-size: 16px;
+}
+.line {
+  color: #ffffff33;
+  width: 100%;
+}
+.sub-heading {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+  }
+  .match-info-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo {
+    width: 40%;
+  }
+  .latest-match-logo {
+    width: 90%;
+  }
+  .match-info {
+    margin-right: 10px;
+    width: 70%;
+    padding: 0px;
+  }
+  .team-name {
+    font-size: 32px;
+  }
+  .match-won-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 40%;
+    padding-right: 10px;
+  }
+  .info {
+    font-size: 22px;
+    padding: 0px;
+    margin: 10px;
+  }
+  .line {
+    color: #0f172a;
+    width: 0%;
+  }
+  .sub-heading {
+    font-size: 28px;
+    padding: 0px;
+    margin: 10px;
+  }
+}
