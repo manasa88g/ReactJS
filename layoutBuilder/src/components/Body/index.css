@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.body-container {
+  background-color: #f1f5f9;
+  height: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  font-family: 'Roboto';
+  color: #475569;
+  justify-content: space-between;
+}
+.navbar {
+  background-color: #e2e8f0;
+  height: 100%;
+  width: 20%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 10px;
+}
+.content-container {
+  height: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+.nav-menu-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+.item-list {
+  list-style-type: none;
+}
+.item {
+  margin-bottom: 8px;
+}
+.left {
+  align-self: flex-start;
+}
+.right {
+  align-self: flex-end;
+}
+.ad-container {
+  border: 1px solid #475569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  margin: 5px;
+}

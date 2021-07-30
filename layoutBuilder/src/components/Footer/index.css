@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.footer-container {
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd5e1;
+
+  height: 20%;
+}
+.footer-heading {
+  color: #475569;
+  font-size: 34px;
+}

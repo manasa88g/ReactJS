@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.configuration-container {
+  height: 25vh;
+  background-color: #475569;
+  font-family: 'Roboto';
+  color: #ffffff;
+  padding-left: 60px;
+}
+
+.configuration-heading {
+  font-size: 28px;
+  font-weight: bold;
+}
+.checkbox {
+  margin-right: 10px;
+}
+.checkbox-container {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
