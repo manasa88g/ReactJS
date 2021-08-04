@@ -1,0 +1,156 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.main-heading {
+  color: #0f172a;
+  font-size: 38px;
+  font-weight: 600;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-text-container {
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  font-size: 28px;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  color: #00d9f5;
+  font-weight: 600;
+}
+.status {
+  font-size: 18px;
+  margin: 0px;
+  padding-top: 0px;
+  font-weight: 600;
+  color: #1e293b;
+  padding-bottom: 16px;
+}
+.options-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-reset-button {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.play-image {
+  width: 25px;
+  height: 25px;
+}
+.play-text {
+  font-size: 22px;
+  margin: 0px;
+  margin-left: 10px;
+  font-weight: 600;
+  color: #1e293b;
+}
+.text {
+  font-size: 18px;
+  color: #1e293b;
+  font-weight: bold;
+}
+.button {
+  background-color: transparent;
+  border: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.timer-value {
+  background-image: linear-gradient(to right, #defafe, #00d9f5);
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 48px;
+  }
+  .bottom-container {
+    flex-direction: row;
+  }
+  .timer-bg-container {
+    width: 600px;
+    height: 600px;
+  }
+  .timer-text-container {
+    border-radius: 80px;
+    width: 160px;
+    height: 160px;
+  }
+
+  .timer {
+    font-size: 38px;
+    padding-top: 20px;
+  }
+  .status {
+    font-size: 22px;
+  }
+  .play-image {
+    width: 35px;
+    height: 35px;
+  }
+  .play-text {
+    font-size: 28px;
+    margin-left: 10px;
+  }
+  .text {
+    font-size: 22px;
+  }
+}
