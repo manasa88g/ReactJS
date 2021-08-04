@@ -1,0 +1,32 @@
+/* Write your code here. */
+.thumbnail-image-container {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.thumbnail-image {
+  width: 50px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.selected-thumbnail {
+  width: 50px;
+  opacity: 1;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-image {
+    width: 10px;
+    opacity: 0.5;
+  }
+  .thumbnail-image {
+    width: 60px;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .selected-thumbnail {
+    width: 60px;
+    opacity: 1;
+    cursor: pointer;
+  }
+}
