@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+
+.currency-table {
+  border: 2px solid #00e7ff;
+  border-radius: 12px;
+  width: 90%;
+  margin-top: 10px;
+}
+.table-headings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00e7ff33;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.currency-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sub-heading {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 10px;
+  width: 100px;
+}
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+}
