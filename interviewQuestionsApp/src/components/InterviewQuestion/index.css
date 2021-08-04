@@ -1,0 +1,74 @@
+/* Write you CSS here */
+.tags-container {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto';
+}
+.tag-text {
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #dc262616;
+  margin-right: 20px;
+}
+.question {
+  font-size: 18px;
+  color: #0f172a;
+  font-weight: bold;
+}
+.show-hide-button {
+  cursor: pointer;
+  color: #9aa5b1;
+  border: 1px solid #9aa5b1;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  height: 30px;
+  border-radius: 8px;
+}
+.button-text {
+  padding-right: 10px;
+}
+.answer {
+  color: #323f4b;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.question-container {
+  border-radius: 16px;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  margin: 10px;
+  padding: 20px;
+  width: 90%;
+}
+.easy {
+  color: #16a34a;
+  background-color: #16a34a16;
+}
+.medium {
+  color: #d97706;
+  background-color: #d9770616;
+}
+.hard {
+  color: #dc2626;
+  background-color: #dc262616;
+}
+.html {
+  color: #0284c7;
+  background-color: #0284c716;
+}
+.css {
+  color: #9333ea;
+  background-color: #9333ea16;
+}
+.javascript {
+  color: #db2777;
+  background-color: #db277716;
+}
