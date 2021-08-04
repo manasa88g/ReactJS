@@ -1,0 +1,90 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.withdrawal-container {
+  background-color: #150b3e;
+  height: 70%;
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Roboto';
+}
+.letter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #c7d2fe;
+  margin-right: 10px;
+}
+.letter {
+  font-size: 16px;
+  color: #7c3aed;
+  font-weight: bold;
+}
+.name {
+  font-size: 18px;
+  color: #d4d2db;
+  font-weight: bold;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  color: #585076;
+  font-size: 16px;
+  font-weight: 400;
+  align-self: flex-start;
+  line-height: 1;
+}
+
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.amount {
+  font-size: 20px;
+  color: #d4d2db;
+  font-weight: bold;
+}
+.small-text {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0px;
+  padding: 0px;
+}
+.withdraw-text {
+  font-size: 22px;
+  color: #d4d2db;
+  font-weight: normal;
+  line-height: 1;
+}
+.denominations-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
